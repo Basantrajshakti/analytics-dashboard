@@ -370,3 +370,40 @@ header {
   font-weight: 300;
   padding: 0 0 1.5rem 1rem;
 }
+
+
+/* ?Other section */
+.other-section {
+  padding: 2rem;
+  background-color: rgb(82, 82, 82);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.other-section__content-topic {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.other-section__content-list {
+  font-weight: 300;
+  list-style-type: none;
+  padding: 0.2rem 0 1.2rem 0;
+}
+
+.other-section__content-list li {
+  padding: 0.5rem 0.8rem;
+}
+
+.demographic {
+  border-bottom: 0.4rem solid var(--color-green);
+}
+
+.system {
+  border-bottom: 0.4rem solid var(--color-red);
+}
+
+.target {
+  border-bottom: 0.4rem solid var(--color-yellow);
+}
