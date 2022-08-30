@@ -407,3 +407,34 @@ header {
 .target {
   border-bottom: 0.4rem solid var(--color-yellow);
 }
+
+/* ?Footer section */
+.footer-section {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-block: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.go-to-top {
+  border: none;
+  padding: 0.2rem 1.5rem;
+  cursor: pointer;
+}
+
+.go-to-top:hover {
+  background-color: rgb(177, 177, 177);
+}
+
+.footer__icons {
+  margin-block: 0.6rem 0.3rem;
+}
+
+.footer__icons i {
+  color: aliceblue;
+}
+
+.footer__icons i:hover {
+  color: rgb(158, 158, 158);
+}
