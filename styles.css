@@ -169,3 +169,60 @@ header {
 .main-nav__item:hover {
   background-color: rgb(199, 199, 199);
 }
+
+
+/* ?dashboard section */
+.dashboard-section {
+  padding: 1rem;
+}
+
+.dashboard-section__heading {
+  font-weight: 500;
+  margin-block: 1.5rem 1rem;
+  letter-spacing: -1px;
+}
+
+.dashboard-section__dashboard-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-section__dashboard-item {
+  background-color: rgb(110, 110, 110);
+  color: white;
+}
+
+.messages {
+  background-color: var(--color-red);
+}
+
+.views {
+  background-color: var(--color-blue);
+}
+
+.shares {
+  background-color: var(--color-green);
+}
+
+.users {
+  background-color: var(--color-yellow);
+}
+
+.dashboard-icon {
+  display: inline-block;
+  font-size: 3rem;
+  padding: 1rem 0 0 1rem;
+}
+
+.dashboard-number {
+  float: right;
+  padding: 2rem 1rem 0 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.dashboard-type {
+  padding: 1rem 0 1.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
