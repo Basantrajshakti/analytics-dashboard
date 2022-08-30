@@ -254,3 +254,48 @@ header {
 .feeds-table .blue {
   color: var(--color-blue);
 }
+
+
+/* ?General Stats */
+.general-stats-section {
+  padding: 1rem;
+  font-weight: 300;
+}
+
+.general-stats-section :not(.heading) {
+  font-size: 0.9rem;
+}
+
+.general-stat {
+  padding-block: 1rem 0.5rem;
+}
+
+.general-stat__bar-outer {
+  height: 1.5rem;
+  background-color: rgb(214, 214, 214);
+  border-radius: 20px;
+}
+
+.general-stat__bar-inner {
+  height: 100%;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+.bar25 {
+  width: 25%;
+  background-color: var(--color-green);
+}
+
+.bar50 {
+  width: 50%;
+  background-color: var(--color-yellow);
+}
+
+.bar75 {
+  width: 75%;
+  background-color: var(--color-red);
+}
