@@ -328,3 +328,45 @@ header {
   background-color: rgb(189, 189, 189);
   color: black;
 }
+
+
+/* ?comments section */
+.comments-section {
+  padding: 1rem;
+}
+
+.comments {
+  display: grid;
+}
+
+.commentor-image {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.commentor-image img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.commentor-comment {
+  padding-inline: 1rem;
+}
+
+.user-name {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-block: 1rem;
+}
+
+.date-time-of-comment {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.user-comment {
+  font-weight: 300;
+  padding: 0 0 1.5rem 1rem;
+}
