@@ -104,3 +104,68 @@ header {
 .logo {
   margin-right: 1rem;
 }
+
+
+/* ?Side navigation bar*/
+.main-nav {
+  z-index: 100;
+  position: fixed;
+  background-color: #ffffff;
+  top: 7vh;
+  left: 0;
+  height: 93vh;
+  width: 300px;
+  box-shadow: 0px 0px 10px grey;
+  display: none;
+}
+
+.main-nav__avatar {
+  padding-block: 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-nav__avatar-image {
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  overflow: hidden;
+}
+
+.main-nav__avatar-image img {
+  width: 3rem;
+}
+
+.main-nav__avatar-description p {
+  padding-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+.main-nav__avatar-description i {
+  padding-inline: 1rem;
+}
+
+.dashboard {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 1.5rem 0 0.5rem 1rem;
+}
+
+.main-nav__item {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  padding: 0.8rem 1rem;
+}
+
+.main-nav__item i {
+  padding-right: 0.5rem;
+}
+
+.main-nav__item:hover {
+  background-color: rgb(199, 199, 199);
+}
