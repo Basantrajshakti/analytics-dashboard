@@ -226,3 +226,31 @@ header {
   font-size: 1.2rem;
   font-weight: 300;
 }
+
+
+/* ?Regions and feeds */
+.region-feeds-section {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.regions img {
+  width: 100%;
+}
+
+.feeds-table td:nth-child(1) {
+  padding-inline: 1rem 0.8rem;
+}
+
+.feeds-table .bi {
+  font-size: 1rem
+}
+
+.feeds-table .red {
+  color: var(--color-red);
+}
+
+.feeds-table .blue {
+  color: var(--color-blue);
+}
