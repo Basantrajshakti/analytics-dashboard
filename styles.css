@@ -439,3 +439,74 @@ header {
 .footer__icons i:hover {
   color: rgb(158, 158, 158);
 }
+
+
+/* ?Tablet code */
+@media (min-width:38rem) {
+  .dashboard-section__dashboard-items {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .dashboard-section__dashboard-item {
+    width: calc(25% - 0.5rem);
+  }
+
+  .region-feeds-section {
+    flex-direction: row;
+  }
+
+  .regions {
+    width: 60%;
+  }
+
+  .feeds {
+    width: 100%;
+    margin-left: 0.5rem;
+  }
+
+  .comments {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .commentor-image {
+    align-self: center;
+  }
+
+  .other-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .other-section__content {
+    width: calc(33% - 1rem);
+  }
+}
+
+
+/* ?Desktop code */
+@media (min-width:62rem) {
+  .toggle-button {
+    visibility: hidden;
+  }
+
+  .main-nav {
+    display: block;
+  }
+
+  .main-nav__toggle-background {
+    display: block;
+  }
+
+  .dashboard-section,
+  .region-feeds-section,
+  .comments-section,
+  .other-section,
+  .general-stats-section,
+  .countries-section,
+  .footer-section{
+    margin-left: 300px;
+  }
+
+}
