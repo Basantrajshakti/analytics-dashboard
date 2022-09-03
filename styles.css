@@ -66,9 +66,19 @@ header {
   align-items: center;
   font-size: 1.1rem;
   font-weight: 300;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 100;
+}
+
+.toggle-handler{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 0.8rem 1.2rem;
+  cursor: pointer;
 }
 
 .toggle-button {
@@ -77,28 +87,22 @@ header {
   color: inherit;
   font-size: inherit;
   font-weight: inherit;
-  cursor: pointer;
-  height: 100%;
-  padding-right: 5rem;
+  height: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.toggle-button:hover {
+.toggle-handler:hover {
   background-color: rgb(45, 45, 45);
 }
 
 .toggle-button__bar {
   display: block;
   width: 1rem;
-  height: 0.16rem;
+  height: 0.1rem;
   background-color: #fff;
   border-radius: 20px;
-  margin: 0 0 0.18rem 1rem;
-}
-
-.menu {
-  position: absolute;
-  left: 2.85rem;
-  top: 20%;
 }
 
 .logo {
@@ -487,7 +491,7 @@ header {
 
 /* ?Desktop code */
 @media (min-width:62rem) {
-  .toggle-button {
+  .toggle-handler {
     visibility: hidden;
   }
 
@@ -499,14 +503,8 @@ header {
     display: block;
   }
 
-  .dashboard-section,
-  .region-feeds-section,
-  .comments-section,
-  .other-section,
-  .general-stats-section,
-  .countries-section,
-  .footer-section{
+  main,
+  footer {
     margin-left: 300px;
   }
-
 }

@@ -1,15 +1,15 @@
-const toggleButton = document.querySelector('.toggle-button');
+const toggleButton = document.querySelector('.toggle-handler');
 const backDrop = document.querySelector('.backdrop');
 const mainNav = document.querySelector('.main-nav');
 
 toggleButton.addEventListener('click', () => {
-  if (mainNav.style.display === 'none') {
-    mainNav.style.display = 'block';
-    backDrop.style.display = 'block';
+  if (mainNav.style.display === 'block') {
+    mainNav.style.display = 'none';
+    backDrop.style.display = 'none';
   }
   else {
-    backDrop.style.display = 'none';
-    mainNav.style.display = 'none';
+    backDrop.style.display = 'block';
+    mainNav.style.display = 'block';
   }
 })
 
